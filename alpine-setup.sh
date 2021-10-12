@@ -5,4 +5,5 @@ rc-update add sshd
 
 apk add rsync screen nano
 echo "export TERM=vt100" >> .profile
+echo "export EDITOR=nano" >> .profile
 source .profile
