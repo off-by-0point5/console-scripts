@@ -4,3 +4,5 @@ rc-update add sshd
 /etc/init.d/sshd start
 
 apk add rsync screen
+echo "export TERM=vt100" >> .profile
+source .profile
