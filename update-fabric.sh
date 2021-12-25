@@ -1,4 +1,4 @@
-serverjar="server18.jar"
+serverjar="server.jar"
 mcversion=1.18
 
 # Get version and url
