@@ -3,7 +3,7 @@ apk add openssh-server
 rc-update add sshd
 /etc/init.d/sshd start
 
-apk add rsync tmux micro mosh exa bat
+apk add rsync tmux micro exa bat
 echo "export TERM=vt100" >> .profile
 echo "export EDITOR=micro" >> .profile
 echo "alias here=\"cd \$(pwd)\"" >> .profile
